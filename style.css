@@ -60,6 +60,8 @@ h1 {
 .hero-image {
 	order: 2;
 	width: min(233px, 54%);
+	border-radius: 50%;
+	box-shadow: 0px 4px 24px 0px rgba(69, 132, 255, 0.15);
 }
 
 .cta,
@@ -146,6 +148,9 @@ h1 {
 	}
 	.hero-text p {
 		color: var(--white-secondary);
+	}
+	.hero-image {
+		box-shadow: none;
 	}
 
 	.credibility {
